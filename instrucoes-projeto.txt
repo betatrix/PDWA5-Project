@@ -1,0 +1,21 @@
+
+# Criar um banco mysql no docker
+
+sudo docker pull mysql
+
+sudo docker run --name projeto-cadastro-mysql -e MYSQL_ROOT_PASSWORD=123 -d mysql:latest
+
+https://plus.diolinux.com.br/t/dica-como-instalar-o-mysql-no-docker-e-conectar-no-dbeaver-atualizado-08-2022/47274
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+# Comandos 
+
+composer install
+
+npm install
+
+php artisan migrate
+
+php artisan serve
+
